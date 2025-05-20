@@ -9,8 +9,8 @@
   "name":"O_Player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Entity",
-    "path":"folders/Objects/Entity.yy",
+    "name":"Player",
+    "path":"folders/Objects/Entity/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,6 +33,7 @@
     {"$GMObjectProperty":"v1","%Name":"anglesMax","filters":[],"listItems":[],"multiselect":false,"name":"anglesMax","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[190, 350]","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"anglesMin","filters":[],"listItems":[],"multiselect":false,"name":"anglesMin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[250, 290]","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"angles","filters":[],"listItems":[],"multiselect":false,"name":"angles","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"tracted","filters":[],"listItems":[],"multiselect":false,"name":"tracted","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

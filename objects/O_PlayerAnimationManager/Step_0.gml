@@ -37,6 +37,9 @@ if (colBot > 0) {
 	else {
 		stab = 0;
 	}
+	if (O_Player.hspeed = 0) {
+		wallSlide = false;
+	}
 }
 if (stab == 0) {
 	fallStartY = O_Player.y;
@@ -53,6 +56,7 @@ else {
 	else {
 		jump = false;
 		if (O_Player.vspeed >= 0 && !(colBot > 0) && !wallClimb) {
+			slide = false;
 			fall = true;
 			if (fallEndY < O_Player.y) {
 				fallEndY = O_Player.y;
@@ -116,8 +120,25 @@ else {
 if (O_Player.swing) {
 	O_Player.sprite_index = S_Player_Swing_Body;
 }
+else if (wallClimb) {
+	O_Player.sprite_index = S_Player_Wall_Climb;
+}
 else if (roll) {
 	O_Player.sprite_index = S_Player_Stab_Roll;
+	if (particles) {
+		var particle = instance_create_layer(O_Player.x, O_Player.y, "Effects", O_DustRoll_FX);
+		particle.image_xscale = O_Player.image_xscale;
+		particles = false;
+		alarm_set(2, 30);
+	}
+}
+else if (laserDeath) {
+	if (colBot > 0) {
+		O_Player.sprite_index = S_Player_LaserDeath_Ground;
+	}
+	else {
+		O_Player.sprite_index = S_Player_LaserDeath_Air;
+	}
 }
 else if (death) {
 	O_Player.sprite_index = S_Player_Stab_Death;
@@ -141,10 +162,16 @@ else if (slide) {
 }
 else if (run) {
 	O_Player.sprite_index = S_Player_Run;
+	if (particles) {
+		var particle = instance_create_layer(O_Player.x, O_Player.y, "Effects", O_DustRun_FX);
+		particle.image_xscale = O_Player.image_xscale;
+		particles = false;
+		alarm_set(2, 15);
+	}
 }
 else if (wallJump) {
 	if (createDust) {
-		var dust = instance_create_layer(O_Player.x, O_Player.y, "Effects", O_Dust_FX);
+		var dust = instance_create_layer(O_Player.x, O_Player.y, "Effects", O_DustJump_FX);
 		if (goRight) {
 			dust.image_xscale = O_Player.image_xscale;
 			dust.image_angle = 270;
@@ -161,7 +188,7 @@ else if (wallJump) {
 }
 else if (jump) {
 	if (createDust) {
-		var dust = instance_create_layer(O_Player.x, O_Player.y, "Effects", O_Dust_FX);
+		var dust = instance_create_layer(O_Player.x, O_Player.y, "Effects", O_DustJump_FX);
 		if (goRight) {
 			dust.image_xscale = O_Player.image_xscale;
 			dust.y += 3;
@@ -179,13 +206,12 @@ else if (fall) {
 }
 else if (wallSlide) {
 	O_Player.sprite_index = S_Player_Wall_Slide;
-}
-else if (wallClimb) {
-	O_Player.sprite_index = S_Player_Wall_Climb;
-}
-else if (grapinSwing) {
-}
-else if (grapinTracted) {
+	if (particles) {
+		var particle = instance_create_layer(O_Player.x, O_Player.y, "Effects", O_DustWallSlide_FX);
+		particle.image_xscale = O_Player.image_xscale;
+		particles = false;
+		alarm_set(2, 10);
+	}
 }
 else {
 	O_Player.sprite_index = S_Player_Idle;

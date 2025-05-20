@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SC_CollisionRoom_Delete",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SC_CollisionRoom_Delete",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

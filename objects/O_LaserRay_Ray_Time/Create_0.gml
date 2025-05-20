@@ -1,0 +1,1 @@
+alarm_set(0, O_LaserRay_Time.time * 60);

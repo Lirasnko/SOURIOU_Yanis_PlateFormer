@@ -8,8 +8,8 @@
   "name":"O_Player_Arm1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Entity",
-    "path":"folders/Objects/Entity.yy",
+    "name":"Player",
+    "path":"folders/Objects/Entity/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

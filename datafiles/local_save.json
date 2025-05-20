@@ -1,0 +1,29 @@
+{
+    "starter" : {
+        "startX" : 0,
+        "startY" : 0
+    },
+    "saves" : {
+        "1" : {
+            "date" : "DD/MM/YYYY",
+            "hour" : "HH/MM/SS",
+            "checkpoint" : 0,
+            "startX" : 0,
+            "startY" : 0
+        },
+        "2" : {
+            "date" : "DD/MM/YYYY",
+            "hour" : "HH/MM/SS",
+            "checkpoint" : 0,
+            "startX" : 0,
+            "startY" : 0
+        },
+        "3" : {
+            "date" : "DD/MM/YYYY",
+            "hour" : "HH/MM/SS",
+            "checkpoint" : 0,
+            "startX" : 0,
+            "startY" : 0
+        }
+    }
+}

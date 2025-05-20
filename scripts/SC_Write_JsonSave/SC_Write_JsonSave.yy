@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SC_Write_JsonSave",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SC_Write_JsonSave",
+  "parent":{
+    "name":"JSON",
+    "path":"folders/Scripts/JSON.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

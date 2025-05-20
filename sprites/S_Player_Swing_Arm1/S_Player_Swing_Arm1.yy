@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Grappin",
-    "path":"folders/Sprites/Player/Grappin.yy",
+    "path":"folders/Sprites/Entity/Player/Grappin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

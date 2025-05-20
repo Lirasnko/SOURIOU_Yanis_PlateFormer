@@ -1,0 +1,3 @@
+randomize();
+
+event_inherited();

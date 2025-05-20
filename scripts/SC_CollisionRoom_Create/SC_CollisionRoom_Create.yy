@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SC_CollisionRoom_Create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SC_CollisionRoom_Create",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

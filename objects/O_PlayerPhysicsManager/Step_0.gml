@@ -7,7 +7,7 @@ if (!O_Player.swing) {
 	var colTop = collision_line(O_Player.x - 6, O_Player.y - 17, O_Player.x + 6, O_Player.y - 17, O_Collider, true, false);
 	var colRight;
 	var colLeft;
-	if (O_PlayerAnimationManager.slide) {
+	if (O_PlayerAnimationManager.slide || O_PlayerAnimationManager.roll) {
 		colRight = collision_line(O_Player.x + 13, O_Player.y + 2, O_Player.x + 13, O_Player.y + 8, O_Collider, true, false);
 		colLeft = collision_line(O_Player.x - 13, O_Player.y + 2, O_Player.x - 13, O_Player.y + 8, O_Collider, true, false);
 	}
