@@ -5,6 +5,7 @@
     },
     "saves" : {
         "1" : {
+            "number" : "A0001",
             "date" : "DD/MM/YYYY",
             "hour" : "HH/MM/SS",
             "checkpoint" : 0,
@@ -12,6 +13,7 @@
             "startY" : 0
         },
         "2" : {
+            "number" : "A0001",
             "date" : "DD/MM/YYYY",
             "hour" : "HH/MM/SS",
             "checkpoint" : 0,
@@ -19,6 +21,7 @@
             "startY" : 0
         },
         "3" : {
+            "number" : "A0001",
             "date" : "DD/MM/YYYY",
             "hour" : "HH/MM/SS",
             "checkpoint" : 0,

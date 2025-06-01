@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SC_SignSound",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SC_SignSound",
+  "parent":{
+    "name":"Zones",
+    "path":"folders/Scripts/Zones.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

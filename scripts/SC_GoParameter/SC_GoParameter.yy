@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SC_GoParameter",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SC_GoParameter",
+  "parent":{
+    "name":"Button",
+    "path":"folders/Scripts/Button.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -4,6 +4,7 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_LaserRay_Base",
@@ -27,12 +28,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
+    {"$GMObjectProperty":"v1","%Name":"roomID","filters":[],"listItems":[],"multiselect":false,"name":"roomID","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"construct","filters":[],"listItems":[],"multiselect":false,"name":"construct","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"activate","filters":[],"listItems":[],"multiselect":false,"name":"activate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"activate","filters":[],"listItems":[],"multiselect":false,"name":"activate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"endBaseCo","filters":[],"listItems":[],"multiselect":false,"name":"endBaseCo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"laser","filters":[],"listItems":[],"multiselect":false,"name":"laser","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"laserStart","filters":[],"listItems":[],"multiselect":false,"name":"laserStart","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"O_LaserRay_RayStart","path":"objects/O_LaserRay_RayStart/O_LaserRay_RayStart.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"O_LaserRay_RayStart","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"laserMiddle","filters":[],"listItems":[],"multiselect":false,"name":"laserMiddle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"O_LaserRay_Ray","path":"objects/O_LaserRay_Ray/O_LaserRay_Ray.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"O_LaserRay_Ray","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"laserID","filters":[],"listItems":[],"multiselect":false,"name":"laserID","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

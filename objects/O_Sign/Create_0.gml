@@ -1,0 +1,1 @@
+image_xscale = 0.25 + string_width(text) / 256;

@@ -8,23 +8,29 @@
   "instanceCreationOrder":[
     {"name":"inst_4E76E0F4","path":"rooms/R_Death/R_Death.yy",},
     {"name":"inst_52357A6B","path":"rooms/R_Death/R_Death.yy",},
+    {"name":"inst_7033C1C9","path":"rooms/R_Death/R_Death.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Selection","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Selection","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRInstanceLayer":"","%Name":"Button","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"$GMRInstanceLayer":"","%Name":"Manager","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v2","%Name":"inst_7033C1C9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7033C1C9","objectId":{"name":"O_MusicManager","path":"objects/O_MusicManager/O_MusicManager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+      ],"layers":[],"name":"Manager","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Selection","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Selection","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Button","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_4E76E0F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4E76E0F4","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"propertyId":{"name":"name","path":"objects/O_Button/O_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Respawn",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"propertyId":{"name":"fonction","path":"objects/O_Button/O_Button.yy",},"resource":{"name":"SC_GoGame","path":"scripts/SC_GoGame/SC_GoGame.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"SC_GoGame",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"propertyId":{"name":"buttonID","path":"objects/O_Button/O_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.5,"x":256.0,"y":288.0,},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"propertyId":{"name":"textSize","path":"objects/O_Button/O_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1536.0,"y":736.0,},
         {"$GMRInstance":"v2","%Name":"inst_52357A6B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_52357A6B","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"propertyId":{"name":"name","path":"objects/O_Button/O_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Menu",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"propertyId":{"name":"fonction","path":"objects/O_Button/O_Button.yy",},"resource":{"name":"SC_GoMain","path":"scripts/SC_GoMain/SC_GoMain.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"SC_GoMain",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"propertyId":{"name":"buttonID","path":"objects/O_Button/O_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.5,"x":256.0,"y":448.0,},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Button","path":"objects/O_Button/O_Button.yy",},"propertyId":{"name":"textSize","path":"objects/O_Button/O_Button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1536.0,"y":896.0,},
       ],"layers":[],"name":"Button","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4291611852,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"S_Menu","path":"sprites/S_Menu/S_Menu.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"R_Death",
   "parent":{
@@ -42,10 +48,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":528,
+    "Height":1056,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":960,
+    "Width":1920,
   },
   "sequenceId":null,
   "views":[

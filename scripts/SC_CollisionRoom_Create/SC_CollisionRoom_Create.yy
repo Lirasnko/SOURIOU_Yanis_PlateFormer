@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"SC_CollisionRoom_Create",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Room",
+    "path":"folders/Scripts/Room.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -12,3 +12,5 @@ if (left) {
 else {
 	O_Player.angles = [270 - (point_direction(x, y, O_Player.x, O_Player.y) - 270), point_direction(x, y, O_Player.x, O_Player.y)];
 }
+
+audio_play_sound(SO_LaserRope, 1, false);

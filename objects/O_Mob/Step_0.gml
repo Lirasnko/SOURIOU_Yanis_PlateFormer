@@ -1,24 +1,26 @@
-if (endPoint > xstart) {
-	if (x <= xstart) {
-		if (!right) {
-			right = !right;
+if (endPoint != 0) {
+	if (endPoint > xstart) {
+		if (x <= xstart) {
+			if (!right) {
+				right = !right;
+			}
+		}
+		if (x >= endPoint) {
+			if (right) {
+				right = !right;
+			}
 		}
 	}
-	if (x >= endPoint) {
-		if (right) {
-			right = !right;
+	else {
+		if (x >= xstart) {
+			if (right) {
+				right = !right;
+			}
 		}
-	}
-}
-else {
-	if (x >= xstart) {
-		if (right) {
-			right = !right;
-		}
-	}
-	if (x <= endPoint) {
-		if (!right) {
-			right = !right;
+		if (x <= endPoint) {
+			if (!right) {
+				right = !right;
+			}
 		}
 	}
 }

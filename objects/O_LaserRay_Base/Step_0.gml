@@ -1,4 +1,4 @@
-if (construct && activate && laser == noone) {
+if (construct && activate && laser == noone && array_length(endBaseCo) > 1) {
 	if (image_angle == 0) {
 		laser = [];
 		array_push(laser, instance_create_layer(x + 5, y, "Trap", laserStart));

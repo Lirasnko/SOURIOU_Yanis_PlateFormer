@@ -5,3 +5,5 @@ image_angle = point_direction(x, y, O_Player.x, O_Player.y);
 alarm_set(0, 5);
 
 O_Player.tracted = true;
+
+audio_play_sound(SO_LaserRope, 1, false);

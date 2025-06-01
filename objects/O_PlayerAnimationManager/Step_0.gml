@@ -129,10 +129,14 @@ else if (roll) {
 		var particle = instance_create_layer(O_Player.x, O_Player.y, "Effects", O_DustRoll_FX);
 		particle.image_xscale = O_Player.image_xscale;
 		particles = false;
+		audio_play_sound(SO_Roll, 1, false);
 		alarm_set(2, 30);
 	}
 }
 else if (laserDeath) {
+	if (!audio_is_playing(SO_Death)) {
+		audio_play_sound(SO_Death, 1, false);
+	}
 	if (colBot > 0) {
 		O_Player.sprite_index = S_Player_LaserDeath_Ground;
 	}
@@ -141,6 +145,9 @@ else if (laserDeath) {
 	}
 }
 else if (death) {
+	if (!audio_is_playing(SO_Death)) {
+		audio_play_sound(SO_Death, 1, false);
+	}
 	O_Player.sprite_index = S_Player_Stab_Death;
 	if (O_Player.hspeed != 0) {
 		if (goRight) {
@@ -159,6 +166,13 @@ else if (death) {
 }
 else if (slide) {
 	O_Player.sprite_index = S_Player_Slide;
+	if (particles) {
+		var particle = instance_create_layer(O_Player.x, O_Player.y, "Effects", O_DustSlide_FX);
+		particle.image_xscale = O_Player.image_xscale;
+		particles = false;
+		audio_play_sound(SO_Slide, 1, false);
+		alarm_set(2, 40);
+	}
 }
 else if (run) {
 	O_Player.sprite_index = S_Player_Run;
@@ -166,6 +180,7 @@ else if (run) {
 		var particle = instance_create_layer(O_Player.x, O_Player.y, "Effects", O_DustRun_FX);
 		particle.image_xscale = O_Player.image_xscale;
 		particles = false;
+		audio_play_sound(SO_Step, 1, false);
 		alarm_set(2, 15);
 	}
 }
@@ -183,6 +198,7 @@ else if (wallJump) {
 			dust.x -= 4;
 		}
 		createDust = false;
+		audio_play_sound(SO_Jump, 1, false);
 	}
 	O_Player.sprite_index = S_Player_Wall_Jump;
 }
@@ -198,6 +214,7 @@ else if (jump) {
 			dust.y += 3;
 		}
 		createDust = false;
+		audio_play_sound(SO_Jump, 1, false);
 	}
 	O_Player.sprite_index = S_Player_Jump;
 }
@@ -210,6 +227,7 @@ else if (wallSlide) {
 		var particle = instance_create_layer(O_Player.x, O_Player.y, "Effects", O_DustWallSlide_FX);
 		particle.image_xscale = O_Player.image_xscale;
 		particles = false;
+		audio_play_sound(SO_Slide, 1, false);
 		alarm_set(2, 10);
 	}
 }

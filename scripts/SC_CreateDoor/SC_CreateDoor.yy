@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SC_CreateDoor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SC_CreateDoor",
+  "parent":{
+    "name":"Zones",
+    "path":"folders/Scripts/Zones.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

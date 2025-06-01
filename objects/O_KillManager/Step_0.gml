@@ -16,3 +16,8 @@ if (activate) {
 		time = 0;
 	}
 }
+
+if (global.spawn) {
+	global.spawn = false;
+	alarm_set(0, 3);
+}

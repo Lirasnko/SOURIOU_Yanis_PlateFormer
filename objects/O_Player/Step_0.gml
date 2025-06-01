@@ -14,6 +14,11 @@ if (colBot > 0) {
 	}
 }
 
+var escapePress = keyboard_check_pressed(vk_escape);
+if (escapePress) {
+	SC_GoPause();
+}
+
 var dDown = false;
 var qDown = false;
 var spacePress = false;

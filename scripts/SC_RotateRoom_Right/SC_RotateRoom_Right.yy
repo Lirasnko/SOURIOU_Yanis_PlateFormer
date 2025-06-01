@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"SC_RotateRoom_Right",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Room",
+    "path":"folders/Scripts/Room.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

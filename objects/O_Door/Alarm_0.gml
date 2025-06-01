@@ -1,0 +1,1 @@
+sprite_index = S_Door_Close;

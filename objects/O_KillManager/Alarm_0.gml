@@ -1,0 +1,1 @@
+audio_play_sound(SO_Spawn, 1, false);
